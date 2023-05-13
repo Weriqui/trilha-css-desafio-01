@@ -10,11 +10,11 @@ body {
     font-weight: 900;
     font-size: 40px;
     line-height: 47px;
-    /*background-image: url('../images/woman-code.png');
-    background-size:cover;
-    background-repeat: no-repeat;*/
 }
 
+#exemplo {
+    word-break:keep-all;
+}
 
 header {
     
@@ -57,14 +57,13 @@ h1 {
     
 
 
-main p {
+header p {
     font-family: Raleway;
     font-size: 19px;
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0em;
     text-align: center;
-    white-space: pre;
 }
 
 div.banner-content {
@@ -210,7 +209,7 @@ section#course-content {
 
 footer {
     position: relative;
-    height: 170px;
+    height: 130px;
     left: 0px;
     top: 1014px;
     font-family: Raleway;
